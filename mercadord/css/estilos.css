@@ -1,0 +1,304 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+}
+main {
+    margin-top: 10rem;
+}
+#logo{
+    height: 85px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+main.mainBuscar{
+    margin-top: 5rem;
+}
+/*Scrollbar personalizado*/
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #17a2b8;
+    border-radius: 5px;
+}
+/*Fin scrollbar*/
+/*Diseños para las categorias*/
+.formularioBuscar{
+    margin-bottom: 0px;
+}
+div.inputBuscar{
+    border: 1px solid #17a2b8;
+    border-radius: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+}
+div.inputBuscar input{
+    transition: all 1s ease;
+    border: none;
+    width: 70px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+div.inputBuscar label{
+    vertical-align: middle;
+    margin: 3px 5px;
+    color: #17a2b8;
+    cursor: pointer;
+}
+div.inputBuscar input:focus{
+    transition: all 1s ease;
+    width: 400px;
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+#navbarToggleExternalContent{
+    border-bottom: 5px solid #00acee;
+}
+.verDetalles
+{
+    color: black;
+}
+.verDetalles:hover{
+    color: rgb(90, 90, 90);
+}
+.divisor {
+    width: 100px;
+    height: 5px;
+    border-radius: 5px;
+    background: #17a2b8;
+}
+
+.contenedorCt ul li a:hover {
+    text-decoration: none;
+    color: #0f5c68;
+}
+
+.contenedorCt ul li a {
+    font-size: 17px;
+    color: #17a2b8;
+}
+
+.opcion {
+    padding: 2px 13px;
+    font-size: 30px;
+    border-radius: 10%;
+}
+
+.opciones {
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+}
+.btnPublicar {
+    margin-left: 10px;
+}
+
+.btnUser {
+    margin-left: 10px;
+    font-size: 18px;
+}
+/*Estilos para los productos*/
+
+.conenido-Productos {
+    width: 100%;
+}
+
+.contiene {
+    padding: 15px;
+    width: 25%;
+    display: inline-block;
+}
+
+.IMGproductos {
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.btnMas {
+    width: 100%;
+    text-align: center;
+}
+
+.btnVerMas {
+    margin: 30px;
+}
+
+.descripcion {
+    width: 100%;
+    height: 40%;
+    padding: 5px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.descripcion h5 {
+    font-size: 1.17rem;
+    color: #212121;
+}
+
+.redes {
+    margin-right: 5%;
+}
+
+.btntwitter {
+    color: #00acee;
+    border: 1px solid #00acee;
+}
+
+.btntwitter:hover {
+    background: #00acee;
+}
+
+.btnFacebook {
+    color: #3b5998;
+    border: 1px solid#3b5998;
+}
+
+.btnFacebook:hover {
+    background: #3b5998;
+}
+
+.btninstagram {
+    color: #212121;
+    border: 1px solid #212121;
+}
+
+.btninstagram:hover {
+    background: #212121;
+}
+
+.conocenos {
+    margin-left: 5%px;
+}
+
+.filaDelPiePagina {
+    display: flex;
+    justify-content: center;
+}
+
+.cabeceraPro {
+    width: 180px;
+    height: 320px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.filaProductos {
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+
+.filaProductos a:hover {
+    text-decoration: none;
+}
+
+footer {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.formBuscar {
+    margin: 0;
+    padding: 0;
+    width: 22rem;
+    padding-top: 5px;
+}
+.mb-2, .my-2 {
+    margin-bottom: .0rem!important;
+}
+/*Diseño para movil*/
+
+@media (max-width: 768px) {
+    div.categoriasF{
+        transition: all 1s ease;
+        display: none;
+    }
+    div.inputBuscar input{
+        transition: all 1s ease;
+        border: none;
+        width: 70px;
+        cursor: pointer;
+        vertical-align: middle;
+    }
+    div.inputBuscar input:focus{
+        transition: all 1s ease;
+        width: 250px;
+        outline:none !important;
+        outline-width: 0 !important;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+    .opciones {
+        display: block;
+    }
+    .categoriasFloat{
+        display: block;
+    }
+    .btnLogin {
+        display: none;
+    }
+    .formBuscar {
+        margin: 0;
+        padding: 0;
+        width: 21rem;
+        padding-top: 5px;
+    }
+    main {
+        margin-top: 12rem;
+    }
+    main.mainBuscar{
+        margin-top: 6rem;
+    }
+}
+@media (min-width: 360px) {
+    .cabeceraPro {
+        width: 170px;
+        height: 310px;
+        margin: 5px;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 577px) {
+    .contenedorCt {
+        height: 250px;
+        width: 300px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .contenedorCt::-webkit-scrollbar {
+        width: 5px;
+    }
+    .contenedorCt::-webkit-scrollbar-thumb {
+        background: #17a2b8;
+        border-radius: 5px;
+    }
+}
+/*Estilos para la pagina de busqueda*/
+.resultadoB
+{
+    font-size: medium;
+    padding: 15px;
+}
+.resultadoB dir
+{
+    margin: 0px;
+    width: 150px;
+}

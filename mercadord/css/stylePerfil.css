@@ -1,0 +1,516 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    z-index: 1;
+}
+#logo{
+    height: 85px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+/*Scrollbar personalizado*/
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #17a2b8;
+    border-radius: 5px;
+}
+.formularioBuscar{
+    margin-bottom: 0px;
+}
+div.inputBuscar{
+    border: 1px solid #17a2b8;
+    border-radius: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+}
+div.inputBuscar input{
+    transition: all 1s ease;
+    border: none;
+    width: 70px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+div.inputBuscar label{
+    vertical-align: middle;
+    margin: 3px 5px;
+    color: #17a2b8;
+    cursor: pointer;
+}
+div.inputBuscar input:focus{
+    transition: all 1s ease;
+    width: 400px;
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.opcion {
+    padding: 2px 13px;
+    font-size: 30px;
+    border-radius: 10%;
+}
+
+.opciones {
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 1;
+}
+
+.btnPublicar {
+    margin-left: 10px;
+}
+
+.btnUser {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.formBuscar {
+    margin: 0;
+    padding: 0;
+    width: 21rem;
+    padding-top: 5px;
+}
+
+
+.redes {
+    margin-right: 5%;
+}
+
+.btntwitter {
+    color: #00acee;
+    border: 1px solid #00acee;
+}
+
+.btntwitter:hover {
+    background: #00acee;
+}
+
+.btnFacebook {
+    color: #3b5998;
+    border: 1px solid#3b5998;
+}
+
+.btnFacebook:hover {
+    background: #3b5998;
+}
+
+.btninstagram {
+    color: #212121;
+    border: 1px solid #212121;
+}
+
+.btninstagram:hover {
+    background: #212121;
+}
+
+.conocenos {
+    margin-left: 5%px;
+}
+
+.filaDelPiePagina {
+    display: flex;
+    justify-content: center;
+}
+footer {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.tituloPerfil
+{
+    margin-top: 6rem;
+    padding: 15px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.divisor {
+    width: 100px;
+    height: 5px;
+    border-radius: 5px;
+    background: #17a2b8;
+    margin: 0px;
+}
+div.contenido
+{
+    width: 90%;
+    margin: 0px auto;
+}
+div.contenido::after
+{
+    content: '';
+    display: block;
+    clear: both;
+}
+aside.sidebarPerfil
+{
+    padding: 10px;
+    border-top: 5px solid #00acee;
+    border-bottom: 5px solid #00acee;
+    margin-bottom: 20px;
+    width: 25%;
+    height: auto;
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 3px 3px rgba(146,161,176,.15);
+    box-shadow: 1px 1px 3px 3px rgba(146,161,176,.15);
+}
+div.contenidoPerfilImg
+{
+    width: 100%;
+}
+div.nombreCuenta h5
+{
+    color: #17A2B8;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: bold;
+}
+div.fotoCuenta
+{
+    margin: 5px auto;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #17a2b8;
+    border-radius: 50%;
+}
+div.btn-editar a{
+    text-decoration: none;
+    background-color: #ebf1f2;
+    color: black;
+    font-family: 'Baloo Tamma 2', cursive;
+    padding: 5px 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 3px 3px rgba(146,161,176,.15);
+    box-shadow: 1px 1px 3px 3px rgba(146,161,176,.15);
+}
+div.btn-editar a:hover
+{
+    transition: ease 0.5s all;
+    background-color: #17a2b8;
+    color: white;
+    -webkit-box-shadow: 1px 1px 3px 3px rgba(146,161,176,.15);
+    box-shadow: 1px 1px 3px 3px rgba(146,161,176,.15);
+
+}
+div.btn-editar
+{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+main.contenido
+{
+    width: 600px;
+    height: auto;
+}
+div.bodyContent
+{
+    margin-top: 30px;
+}
+div.bodyContent > div > p
+{
+    color: #C99806;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: bold;
+
+}
+/*Estilos para los productos*/
+.conenido-Productos {
+    border-top: 5px solid #00acee;
+    border-bottom: 5px solid #00acee;
+    width: 73%;
+    float: right;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 3px 3px rgba(146,161,176,.15);
+    box-shadow: 1px 1px 3px 3px rgba(146,161,176,.15);
+}
+main.contenido::after
+{
+    content: '';
+    display: block;
+    clear: both;
+}
+.cabeceraPro {
+    width: 180px;
+    height: 320px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.descripcion {
+    width: 100%;
+    height: 40%;
+    padding: 5px;
+    background-size: cover;
+    border-radius: 10px;
+}
+.descripcion h5{
+    color: black;
+    font-size: 1.17rem;
+}
+.descripcion h5:hover{
+    color: rgb(95, 95, 95);
+}
+.IMGproductos {
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.filaProductos {
+    display: flex;
+    background-size: cover;
+}
+
+.filaProductos a:hover {
+    text-decoration: none;
+}
+div.titleAnuncio h5
+{
+    color: #17a2b8;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: bold;
+}
+/*Estilos para la pagina de editar perfil*/
+div.titulo h4
+{
+    text-align: center;
+    color: #17a2b8;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 5rem;
+}
+div.titulo
+{
+    padding: 20px 0px;
+}
+div.contenedorIMGperfil
+{
+    padding: 10px;
+    width: 100%;
+}
+div.imgCuenta
+{
+    background-image: url('../img/undraw_profile_pic_ic5t.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px auto;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    position: relative;
+}
+label.labelFile
+{
+    position: absolute;
+    bottom: -15px;
+    right: -10px;
+    text-align: center;
+    padding: 10px;
+    width: 45px;
+    height: 45px;
+    background-color: #17a2b8;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+label.labelFile:hover
+{
+    transition: all 1s ease;
+    -webkit-box-shadow: 1px 1px 3px 3px rgba(146,161,180,.15);
+    box-shadow: 1px 1px 3px 3px rgba(146,161,180,.15);
+    background-color: teal;
+}
+div.contenidoInput
+{
+    margin: 30px auto;
+    width: 80%;
+}
+div.contenidoInput label
+{
+    margin-top: 20px;
+}
+.radio input[type="radio"]
+{
+    display: none;
+}
+.radio label
+{
+    color: #17A2B8;
+    padding: 5px 15px 5px 51px;
+    display: inline-block;
+    position: relative;
+    font-size:  1rem;
+    border-radius: 3px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.radio label:hover
+{
+    background-color: rgb(197, 231, 236);
+}
+.radio label:before
+{
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: none;
+    border: 3px solid #17A2B8;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: 7.5px;
+}
+.radio input[type="radio"]:checked + label
+{
+    padding: 5px 15px;
+    background-color: #17A2B8;
+    color: white;
+    border-radius: 2px;
+}
+.radio input[type="radio"]:checked + label:before
+{
+    display: none;
+}
+.radios
+{
+    text-align: center;
+    padding: 25px;
+}
+.botonS
+{
+    text-align: center;
+    padding: 20px;
+}
+.mb-2, .my-2 {
+    margin-bottom: .0rem!important;
+}
+@media (max-width: 768px) {
+    .cabeceraPro {
+        width: 148px;
+        height: 259px;
+        margin: 5px;
+        border-radius: 10px;
+    }
+    div.inputBuscar input{
+        transition: all 1s ease;
+        border: none;
+        width: 70px;
+        cursor: pointer;
+        vertical-align: middle;
+    }
+    div.inputBuscar input:focus{
+        transition: all 1s ease;
+        width: 250px;
+        outline:none !important;
+        outline-width: 0 !important;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+    div.titulo h4
+    {
+        text-align: center;
+        color: #17a2b8;
+        font-family: 'Baloo Tamma 2', cursive;
+        font-weight: bold;
+        padding: 0px;
+        margin: 0px;
+        margin-top: 8rem;
+    }
+    .tituloPerfil
+    {
+        margin-top: 9rem;
+        padding: 15px;
+        font-family: 'Baloo Tamma 2', cursive;
+    }
+    .opciones {
+        display: block;
+    }
+    .btnLogin {
+        display: none;
+    }
+    div.contenidoInput
+    {
+    margin: 30px auto;
+    width: 100%;
+    }
+    aside.sidebarPerfil
+    {
+        padding: 10px;
+        margin-bottom: 20px;
+        width: 100%;
+        height: auto;
+        float: left;
+        text-align: center;
+        border-radius: 10px;
+        -webkit-box-shadow: 1px 1px 3px 3px rgba(146,161,176,.15);
+        box-shadow: 1px 1px 3px 3px rgba(146,161,176,.15);
+    }
+    .conenido-Productos {
+        width: 100%;
+        float: right;
+        padding: 10px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        -webkit-box-shadow: 1px 1px 3px 3px rgba(146,161,176,.15);
+        box-shadow: 1px 1px 3px 3px rgba(146,161,176,.15);
+    }
+    div.fotoCuenta
+    {
+        margin: 5px auto;
+        width: 150px;
+        height: 150px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border: 1px solid #17a2b8;
+        border-radius: 50%;
+    }
+    div.imgCuenta
+    {
+        background-image: url('../img/undraw_profile_pic_ic5t.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px auto;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        position: relative;
+    }
+    label.labelFile
+    {
+        position: absolute;
+        bottom: -10px;
+        right: -10px;
+        text-align: center;
+        padding: 13px;
+        width: 50px;
+        height: 50px;
+        background-color: #17a2b8;
+        color: white;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}

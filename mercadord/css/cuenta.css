@@ -1,0 +1,182 @@
+.los-botones
+{
+    margin-left: 4.7%;
+}
+.logo
+{
+    width: 150px;
+    height: 80px;
+}
+.las-categorias
+{
+    margin-top: 30px;
+    text-align: center;
+}
+.ct
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.ct a
+{
+    color: black;
+    text-decoration: none;
+}
+.boton
+{
+    margin-bottom: 5px;
+}
+.btn-info
+{
+    margin-bottom: 5px;
+}
+.menu-ct
+{
+    position: relative;
+}
+.divAling
+{
+    width: 300px;
+}
+.formBuscar
+{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#busca
+{
+    color: black;
+}
+#busca:hover
+{
+    color: #339999;
+}
+.ir-arriba
+{
+    display: none;
+    padding: 5px 15px;
+    font-size: 30px;
+    color: white;
+    background-color: #339999;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+    border-radius: 10%;
+}
+.productos .card
+{
+    overflow: hidden;
+    display: inline-block;
+}
+.productos
+{
+    margin-top: 10px;
+}
+.productos .imagenes
+{
+    height: 68%;
+    overflow: hidden;
+}
+.formOrdenar
+{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.logosPie
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 26px;
+}
+.logosPie a
+{
+    color: #339999;
+}
+.logosPie a:hover
+{
+    
+    color: black;
+    text-decoration: none;
+}
+.logosPie p
+{
+    font-size: 16px;
+}
+footer
+{
+    border-top: solid 1px #e0e6e6;
+}
+.boton_siguiente
+{
+    margin-left: 6.8%;
+}
+.dropdown button
+{
+    border: 1px solid #339999;
+}
+.descripcion
+{
+    padding: 3px 3px;
+}
+.card-body
+{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.productos
+{
+    max-width: 242.66px;
+    max-height: 342.66px;
+    border: none;
+    margin: 5px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.imagen
+{
+    background-image: url("https://cdn-yams.schibsted.com/api/v1/tenants/dd1f88aa-e3e2-450c-9fa9-a03ea59a6bf0/domains/57a9d53a-fe30-4b6f-a4de-d624bd25134b/buckets/a4371201-ebab-47eb-b797-74238f668ee7/images/95/95e975a1-da18-48ca-a12e-76b0a2a1499d?rule=progressive");
+    background-size: cover;
+    width: 100%;
+    height: 220.66px;
+    border-radius: 5px; 
+}
+.enlac a
+{
+    color: black;
+}
+.enlac a:hover
+{
+    text-decoration: none;
+}
+.enlac
+{
+    display: flex;
+    justify-content: center;
+}
+.en{
+    font-size: 14px;
+    font-weight: 600;
+    color: #0099CC;
+    background: transparent;
+    border: 2px solid #0099CC;
+    border-radius: 6px;
+    padding: 6px 20px 6px 20px;
+    margin: 10px 8px 10px 8px;
+    
+  }
+  
+  .en:hover{
+    top: 6px;
+    background-color:#6484e4;
+  color:white; 
+  -webkit-box-shadow: none; 
+    -moz-box-shadow: none; 
+    box-shadow: none;
+  }

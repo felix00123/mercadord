@@ -1,0 +1,216 @@
+header {
+    align-items: center;
+}
+
+main {
+    margin-top: 1rem;
+}
+/*
+    Estilos para la pagina de publicar productos
+*/
+.form-editar
+{
+    width: 90%;
+    padding: 20px;
+    position: relative;
+    left: 5%;
+}
+/*Scrollbar personalizado*/
+body::-webkit-scrollbar
+{
+    width: 8px;
+}
+body::-webkit-scrollbar-thumb
+{
+    background: #17a2b8;
+    border-radius: 5px;
+}
+.btnPublicar
+{
+    margin-left: 10px;
+}
+.btnUser
+{
+    margin-left: 10px;
+    font-size: 18px;
+}
+div.inputBuscar{
+    border: 1px solid #17a2b8;
+    border-radius: 5px;
+    padding-right: 5px;
+}
+div.inputBuscar input{
+    transition: all 1s ease;
+    border: none;
+    width: 70px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+div.inputBuscar label{
+    vertical-align: middle;
+    margin: 3px 5px;
+    color: #17a2b8;
+    cursor: pointer;
+}
+div.inputBuscar input:focus{
+    transition: all 1s ease;
+    width: 400px;
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.mb-2, .my-2 {
+    margin-bottom: .0rem!important;
+}
+.redes
+{
+    margin-right: 5%;
+}
+.btntwitter
+{
+    color: #00acee;
+    border: 1px solid #00acee;
+}
+.btntwitter:hover
+{
+    background: #00acee;
+}
+.btnFacebook
+{
+    color: #3b5998;
+    border: 1px solid#3b5998;
+}
+.btnFacebook:hover
+{
+    background: #3b5998;
+}
+.btninstagram
+{
+    color: #212121;
+    border: 1px solid #212121;
+}
+.btninstagram:hover
+{
+    background: #212121;
+}
+.conocenos{
+    margin-left: 5%px;
+}
+.filaDelPiePagina
+{
+    display: flex;
+    justify-content: center;
+}
+footer
+{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+section h5
+{
+    margin-top: 10px;
+}
+.divisor
+{
+    width: 100px;
+    height: 5px;
+    border-radius: 5px;
+    background: #17a2b8;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+.radio input[type="radio"]
+{
+    display: none;
+}
+.radio label
+{
+    color: #17A2B8;
+    padding: 5px 15px 5px 51px;
+    display: inline-block;
+    position: relative;
+    font-size:  1rem;
+    border-radius: 3px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.radio label:hover
+{
+    background-color: rgb(197, 231, 236);
+}
+.radio label:before
+{
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: none;
+    border: 3px solid #17A2B8;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: 7.5px;
+}
+.radio input[type="radio"]:checked + label
+{
+    padding: 5px 15px;
+    background-color: #17A2B8;
+    color: white;
+    border-radius: 2px;
+}
+.radio input[type="radio"]:checked + label:before
+{
+    display: none;
+}
+.radios
+{
+    text-align: center;
+    padding: 25px;
+}
+.labelFile
+{
+    background: #17a2b8;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    font-family: 'Baloo Tamma 2', cursive;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+}
+.labelFile:hover
+{
+    transition: ease 1s all;
+    background: #0f6c7a;
+}
+.form-editar input[type="file"]
+{
+    display: none;
+}
+.selectfile
+{
+    text-align: center;
+}
+#fileList
+{
+    text-align: center;
+    padding: 25px;
+}
+#fileList img
+{
+    width: 20%;
+}
+#fileList ul li
+{
+    display: inline;
+    list-style: none;
+    margin: 5px;
+}
+.smallFile
+{
+    font-size: large;
+}

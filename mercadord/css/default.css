@@ -1,0 +1,450 @@
+﻿
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    z-index: 1;
+}
+body {
+    font-family: helvetica, georgia, sans-serif;
+}
+/*Scrollbar personalizado*/
+body::-webkit-scrollbar {
+    width: 8px;
+}
+#logo{
+    height: 85px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+body::-webkit-scrollbar-thumb {
+    background: #17a2b8;
+    border-radius: 5px;
+}
+/*Fin scrollbar*/
+/*Diseños para las categorias*/
+.divisor {
+    width: 100px;
+    height: 5px;
+    border-radius: 5px;
+    background: #17a2b8;
+}
+.btnPublicar {
+    margin-left: 10px;
+}
+
+.btnUser {
+    margin-left: 10px;
+    font-size: 18px;
+}
+.divisorPro{
+    width: 100%;
+    height: 1px;
+    border-radius: 5px;
+    background: #17a2b8;
+    margin: 0px;
+}
+.opcion {
+    padding: 9px 13px;
+    font-size: 30px;
+    border-radius: 10%;
+}
+
+.opciones {
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+}
+.contenedorCt ul li a:hover {
+    text-decoration: none;
+    color: #0f5c68;
+}
+
+.contenedorCt ul li a {
+    font-size: 17px;
+    color: #17a2b8;
+}
+
+div.inputBuscar{
+    border: 1px solid #17a2b8;
+    border-radius: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+}
+div.inputBuscar input{
+    transition: all 1s ease;
+    border: none;
+    width: 70px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+div.inputBuscar label{
+    vertical-align: middle;
+    margin: 3px 5px;
+    color: #17a2b8;
+    cursor: pointer;
+}
+div.inputBuscar input:focus{
+    transition: all 1s ease;
+    width: 400px;
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+div.contenido{
+    width: 90%;
+    margin: 154px auto 20px auto;
+}
+div.contenido main{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.galeriaPro{
+    width: 50%;
+}
+div.contenido p{
+    color: #17a2b8;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: bold;
+}
+.descripcionPro{
+    font-family: 'Baloo Tamma 2', cursive;
+    margin-top: 10px;
+    width: 400px;
+    position: absolute;
+    right: 80px;
+}
+.descripcionPro h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+.contenidoIMG{
+    width: 100%;
+    display: flex;
+}
+.fotoCueta{
+    width: 130px;
+    height: 130px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #17a2b8;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.datosPersonales h5{
+    color: #17A2B8;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: bold;
+}
+.datosProducto span{
+    font-weight: bold;
+    color: #C99806;
+    font-family: helvetica, georgia, sans-serif;
+}
+.datos{
+    margin-top: 10px;
+    color: #C99806;
+}
+.btnChat{
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+}
+.btn-chat{
+    padding: 7px 30px;
+    border-radius: 5px;
+    font-family: 'Baloo Tamma 2', cursive;
+    color: white;
+    background-color: #3b5998;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+.btn-chat:hover{
+    text-decoration: none;
+    background-color: #143c91;
+    color: white;
+}
+.btn-Perfil{
+    margin-top: 10px;
+    padding: 7px 30px;
+    border-radius: 5px;
+    font-family: 'Baloo Tamma 2', cursive;
+    color: white;
+    background-color: #17a2b8;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+.btn-Perfil:hover{
+    text-decoration: none;
+    background-color: #075966;
+    color: white;
+}
+.datosProducto{
+    margin-top: 30px;
+    font-family: helvetica, georgia, sans-serif;
+}
+.contenido-producto{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.contenido-producto h2{
+    color: #17A2B8;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: bold;
+    font-size: 25px;
+}
+.contenido-producto p{
+    text-align: justify;
+    color: black;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: normal;
+}
+.relacionados h2{
+    color: #17A2B8;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+#navbarToggleExternalContent{
+    border-bottom: 5px solid #00acee;
+}
+#featured {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 5px;
+    
+    /* might remove */
+}
+
+#featured h2 {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    line-height: 1.3em;
+    padding: .2em;
+    background: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    filter: alpha(opacity=60);
+    -moz-opacity: 60;
+    opacity: .6;
+}
+
+ul#options {
+    border: 1px solid #17a2b8;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: .8em 0 0 0;
+    padding: .5em;
+}
+
+#options li {
+    float: left;
+    width: 60px;
+    height: 60px;
+    list-style: none;
+    cursor: pointer;
+}
+
+#options li:hover img {
+    border: 2px solid #17a2b8;
+}
+
+#options li img {
+    width: 50px;
+}
+
+.selected {
+    border: 2px solid #00acee;
+}
+
+#options a {
+    outline: none;
+}
+
+a img {
+    border: none;
+    
+}
+img{
+    border-radius: 5px;
+}
+.redes {
+    margin-right: 5%;
+}
+
+.btntwitter {
+    color: #00acee;
+    border: 1px solid #00acee;
+}
+
+.btntwitter:hover {
+    background: #00acee;
+}
+
+.btnFacebook {
+    color: #3b5998;
+    border: 1px solid#3b5998;
+}
+
+.btnFacebook:hover {
+    background: #3b5998;
+}
+
+.btninstagram {
+    color: #212121;
+    border: 1px solid #212121;
+}
+
+.btninstagram:hover {
+    background: #212121;
+}
+
+.conocenos {
+    margin-left: 5%px;
+}
+
+.filaDelPiePagina {
+    display: flex;
+    justify-content: center;
+}
+footer {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+@media only screen and (max-width: 1024px){
+    div.contenido{
+        width: 90%;
+        margin: 154px auto 20px auto;
+    }
+    div.contenido main{
+        display: flex;
+        width: 100%;
+        position: relative;
+    }
+    .galeriaPro{
+        width: 45%;
+    }
+    #featured {
+        height: 250px;
+        
+        /* might remove */
+    }
+    .descripcionPro{
+        font-family: 'Baloo Tamma 2', cursive;
+        margin-right: 10px;
+        margin-top: 10px;
+        width: 50%;
+        position: absolute;
+        right: 0;
+    }
+}
+@media only screen and (max-width: 768px){
+    div.categoriasF{
+        transition: all 1s ease;
+        display: none;
+    }
+    div.inputBuscar input{
+        transition: all 1s ease;
+        border: none;
+        width: 70px;
+        cursor: pointer;
+        vertical-align: middle;
+    }
+    div.inputBuscar input:focus{
+        transition: all 1s ease;
+        width: 250px;
+        outline:none !important;
+        outline-width: 0 !important;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+    .fotoCueta{
+        width: 120px;
+        height: 120px;
+    }
+    .contenido-producto h2{
+        font-size: 20px;
+    }
+    .btnLogin {
+        display: none;
+    }
+    .formBuscar {
+        margin: 0;
+        padding: 0;
+        width: 21rem;
+        padding-top: 5px;
+    }
+    .opciones {
+        display: block;
+        cursor: pointer;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1;
+    }
+    div.contenido{
+        width: 90%;
+        margin: 200px auto 20px auto;
+    }
+    div.contenido main{
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+    .galeriaPro{
+        width: 100%;
+    }
+    #featured {
+        height: 250px;
+        
+        /* might remove */
+    }
+    .descripcionPro{
+        font-family: 'Baloo Tamma 2', cursive;
+        margin-right: 0;
+        margin-top: 40px;
+        width: 100%;
+        position: relative;
+        display: block;
+    }
+    .conocenos ul li{
+        line-height: 35px;
+    }
+    
+}
+@media (max-width: 577px) {
+    .contenedorCt {
+        height: 250px;
+        width: 300px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .contenedorCt::-webkit-scrollbar {
+        width: 5px;
+    }
+    .contenedorCt::-webkit-scrollbar-thumb {
+        background: #17a2b8;
+        border-radius: 5px;
+    }
+}
